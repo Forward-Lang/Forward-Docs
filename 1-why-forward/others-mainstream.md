@@ -123,25 +123,25 @@ There we will reimplement the `if ... then ... else ...` construct using short-c
 Understanding this depends on you also understanding to a certain extent boolean expressions.
 So here is a quick recap:
 
-.`A and B` is `True` if and only if both `A` and `B` are `True`
+`A and B` is `True` if and only if both `A` and `B` are `True`
 
-| input: A | input: B | A and B 
-|----------|----------|--------
-| True     | True     | True    
-| True     | False    | False   
-| False    | True     | False   
-| False    | False    | False   
+| input: A | input: B | A and B |
+|----------|----------|---------|
+| True     | True     | True    |
+| True     | False    | False   |
+| False    | True     | False   |
+| False    | False    | False   |
 
-.`A or B` is `True` if either `A` or `B` are `True`
+`A or B` is `True` if either `A` or `B` are `True`
 
-| input: A | input: B | A or B 
-|----------|----------|--------
-| True     | True     | True    
-| True     | False    | True   
-| False    | True     | True   
-| False    | False    | False   
-  
-  
+| input: A | input: B | A or B |
+|----------|----------|--------|
+| True     | True     | True   |
+| True     | False    | True   |
+| False    | True     | True   |
+| False    | False    | False  |
+
+
 In a lot of programming languages `AND` is represented by `&&`,
 while `OR` is represented by `||`:
 
