@@ -86,7 +86,9 @@ In programming we regularly work with a far more diverse range of "things".
 Here's an example:
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=function')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=function')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=function')
 
 These functions take as input some text, and return the boolean value `True`.
@@ -98,7 +100,9 @@ There we will reimplement the `if ... then ... else ...` construct using short-c
 ### Statements vs expressions
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=anonFunction')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=anonFunction')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=anonFunction')
 
 ## Imperative constructs
@@ -106,13 +110,17 @@ There we will reimplement the `if ... then ... else ...` construct using short-c
 ### if else then
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=ifElse')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=ifElse')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=ifElse')
 
 ### while, do until, for loops
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=loops')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=loops')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=loops')
 
 ## Imperative constructs from scratch 
@@ -146,6 +154,7 @@ In a lot of programming languages `AND` is represented by `&&`,
 while `OR` is represented by `||`:
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=short')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=short')
 
 Luckily in some programming languages `AND` is represented by `and`,
@@ -156,7 +165,9 @@ while `OR` is represented by `or`:
 ### loops: goto or recursion
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=recursion')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=recursion')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=recursion')
 
 ## Functional constructs
@@ -164,13 +175,17 @@ while `OR` is represented by `or`:
 ### map, filter, reduce
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=mapReduce')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=mapReduce')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=mapReduce')
     
 ### curry, partial application 
 
 [others-mainstream.js](others-mainstream.js ':include :fragment=partial')
+
 [others-mainstream.sh](others-mainstream.sh ':include :fragment=partial')
+
 [others-mainstream.lua](others-mainstream.lua ':include :fragment=partial')
   
 ## Functional constructs from scratch 
